@@ -1,0 +1,18 @@
+<html>
+<head>
+<title>Video Audio Project</title>
+</head>
+<body>
+
+<table alihn="left" border="5" cellspacing="0" cellpadding="0" width="100%">
+   <tr alin="left" valign="middle">
+             <td><audio controls="controls" loop="true"> <source src="E:/MKPITS/HTML/audio.webp" type="video/mp4">
+
+       </video></td>
+   </tr>
+</table>
+
+<video controls="controls" loop="true"> <sorce src="E:/MKPITS/HTML/video.webp" type="video/mp4"> </video>
+
+</body>
+</html>
