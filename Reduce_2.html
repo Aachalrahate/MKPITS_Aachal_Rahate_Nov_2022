@@ -1,0 +1,23 @@
+<html>
+<head></head>
+<body>
+<h1>Reduce 2nd Type</h1>
+<pre>
+<script>
+
+ var arr=new Array(5);
+for(i=0;i<=4;i++)
+{
+var v1=parseInt(prompt("Enter"+i+"  number"));
+arr[i]=v1;
+}
+var a=(sum,currArray)=>
+{
+return(sum+currArray);
+}
+var res=arr.reduce(a);
+document.write(res);
+</script>
+</pre>
+</body>
+</html>
