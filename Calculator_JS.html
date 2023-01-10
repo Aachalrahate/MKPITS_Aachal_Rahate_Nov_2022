@@ -1,0 +1,75 @@
+<html>
+<head>
+<style>
+button
+{
+background-color:#ff7566;
+width:100%;
+border:solid 2px blue;
+}
+
+input
+{
+background-color:#abf5e0;
+border:ridge 2px black;
+}
+</style>
+</head>
+<body>
+
+<script>
+function view(num)
+{
+document.getElementById("result").value+=num;
+}
+function compute()
+{
+let x=document.getElementById("result").value;
+let y=eval(x)
+document.getElementById("result").value=y;
+}
+function one()
+{
+document.getElementById("result").value= " " ;
+}
+</script>
+
+<form>
+<table border=1 align="center" bgcolor="pink">
+<tr align="center">
+<td colspan=3><input type="text" id="result"></td>
+<td><button type="button" onclick="one()">C</button></td>
+</tr>
+
+<tr align=center>
+<td><button type="button" onclick="view('1')">1</button></td>
+<td><button type="button" onclick="view('2')">2</button></td>
+<td><button type="button" onclick="view('3')">3</button></td>
+<td><button type="button" onclick="view('+')">+</button></td>
+</tr>
+
+<tr align=center>
+<td><button type="button" onclick="view('4')">4</button></td>
+<td><button type="button" onclick="view('5')">5</button></td>
+<td><button type="button" onclick="view('6')">6</button></td>
+<td><button type="button" onclick="view('-')">-</button></td>
+</tr>
+
+<tr align=center>
+<td><button type="button" onclick="view('7')">7</button></td>
+<td><button type="button" onclick="view('8')">8</button></td>
+<td><button type="button" onclick="view('9')">9</button></td>
+<td><button type="button" onclick="view('/')">/</button></td>
+</tr>
+
+<tr align=center>
+<td><button type="button" onclick="view('*')">*</button></td>
+<td><button type="button" onclick="view('0')">0</button></td>
+<td><button type="button" onclick="compute()">=</button></td>
+<td><button type="button" onclick="view('.')">.</button></td>
+</tr>
+
+</table>
+</form>
+</body>
+</html>
