@@ -1,26 +1,20 @@
- class adddemo
-{
-int a=8,b=8;
-int res;
+class one{
+public static void main(int x, int y)
+  {
+  int temp=x;
+  x=y;
+  y=temp;
 
-void sum()
-{
-res=a+b;
-}
-void dis()
-{
-System.out.println(res);
-}
+  System.out.println("x="+x);
+    System.out.println("y="+y);
+  }
 }
 
- public class one
-{
-public static void main(String[] args)
-{
-adddemo ob=new adddemo();
-ob.sum();
-ob.dis();
-
-
-}
-}
+public class Swap extends one
+  {
+  public static void main(String[] args){
+  int a=13;
+  int b=8;
+  swap(a,b);
+  }
+  }
