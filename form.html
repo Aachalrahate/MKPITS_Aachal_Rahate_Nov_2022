@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+
+        .main{
+            width: 400px;
+            height: 590px;
+            border-style: ridge;
+        }
+        .header{
+            width: 400px;
+            height: 43px;
+            background-color: blue;
+        }
+        .footer{
+            width: 400px;
+            height: 35px;
+            position: relative;
+            margin-top: 475px;
+            background-color:blue;
+        
+        }
+        .h1{
+            margin-left: 10px;
+            color: white;
+        }
+        .f1{
+            color: blue;
+        }
+        .f2{
+            height: 20px;
+            width:265px;
+            border-style: dotted;
+        }
+       .box{
+        height: 20px;
+        width: 350px;
+        margin-left: 20px;
+       }
+       .select{
+        height: 20px;
+        width: 300px;
+        border-style: ridge;
+       }
+       .note{
+        width: 300px;
+        height: 60px;
+       }
+       .ft{
+        margin-left: 320px;
+       }
+       .at{
+        margin-left: 270px;
+        position: relative;
+        margin-top:-19px;
+       }
+    </style>
+</head>
+<body>
+
+    <div class="main">
+     <div class="header">
+        <div class="h1">
+            Attachments
+        </div>
+     </div><br>
+     <div class="box">
+     <fieldset>
+        <legend>
+            Attachments Details
+        </legend>
+        <div class="f1">
+            <b>File to attach</b>
+        </div><br>
+        <div class="f2">
+            File To attach
+            <div class="at">
+            <button>
+                <i class="fa-solid fa-link"></i>
+            </button>
+        </div>
+        </div><br>
+        <b><label>Attachment Category</label></b><br>    
+            <select class="select">
+                <option></option>
+                <option></option>
+                <option></option>
+            </select><br><br>
+            <b><label>Note Category</label></b><br>    
+            <select class="select">
+                <option></option>
+                <option></option>
+                <option></option>
+            </select><br><br>
+            <b><label>Effective Start Date</label></b><br>    
+            <select class="select">
+                <option></option>
+                <option></option>
+                <option></option>
+            </select><br><br>
+            <b><label>Effective End Date</label></b><br>    
+            <select class="select">
+                <option></option>
+                <option></option>
+                <option></option>
+            </select><br><br>
+            <input type="checkbox" class="one">Client Portal
+            <input type="checkbox" class="two">Mirror Attachment<br><br>
+            <b>Note</b>
+            <input type="text" class="note">
+     </fieldset>
+
+     </div>
+     <div class="footer">
+        <div class="ft">
+        <button>
+            <i class="fa-solid fa-power-off" style="font-size:large;"></i>
+        </button>
+        <button>
+            <i class="fa-sharp fa-solid fa-floppy-disk" style="font-size: large;"></i>
+        </button>
+    </div>
+     </div>
+    </div>
+</body>
+</html>
