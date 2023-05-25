@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html xmlns:th="https://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Welcome To Project</title>
+</head>
+<body>
+<h2>Welcome to Page</h2>
+<table border="solid">
+    <tr bgcolor="#5f9ea0">
+        <th>First Name</th>
+        <th>Last Name</th>
+        <th>Email</th>
+        <th>DOB</th>
+    </tr>
+<tr>
+<td th:text="${firstname}">first Name</td>
+<td th:text="${lastname}">last name</td>
+<td th:text="${email}">Email</td>
+<td th:text="${dob}"></td>
+</tr>
+
+</table>
+</body>
+</html>
